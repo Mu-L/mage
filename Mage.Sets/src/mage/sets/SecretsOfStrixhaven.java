@@ -18,7 +18,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
     private SecretsOfStrixhaven() {
         super("Secrets of Strixhaven", "SOS", ExpansionSet.buildDate(2026, 4, 24), SetType.EXPANSION);
         this.blockName = "Secrets of Strixhaven"; // for sorting in GUI
-        this.hasBasicLands = false; // temporary
+        this.hasBasicLands = true;
 
         cards.add(new SetCardInfo("Arcane Omens", 73, Rarity.UNCOMMON, mage.cards.a.ArcaneOmens.class));
         cards.add(new SetCardInfo("Archaic's Agony", 107, Rarity.UNCOMMON, mage.cards.a.ArchaicsAgony.class));
