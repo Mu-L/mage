@@ -71,6 +71,7 @@ Hexproof|instance|
 Hideaway|number|
 Impending|manaString|
 Improvise|new|
+Increment|new|
 Indestructible|instance|
 Infect|instance|
 Intimidate|instance|
