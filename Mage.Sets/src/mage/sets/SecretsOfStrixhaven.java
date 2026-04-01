@@ -72,6 +72,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 273, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prismari Charm", 211, Rarity.UNCOMMON, mage.cards.p.PrismariCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prismari Charm", 364, Rarity.UNCOMMON, mage.cards.p.PrismariCharm.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Procrastinate", 64, Rarity.COMMON, mage.cards.p.Procrastinate.class));
         cards.add(new SetCardInfo("Professor Dellian Fel", 214, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Professor Dellian Fel", 283, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pull from the Grave", 95, Rarity.COMMON, mage.cards.p.PullFromTheGrave.class));
