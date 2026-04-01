@@ -24,6 +24,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Archaic's Agony", 107, Rarity.UNCOMMON, mage.cards.a.ArchaicsAgony.class));
         cards.add(new SetCardInfo("Banishing Betrayal", 38, Rarity.COMMON, mage.cards.b.BanishingBetrayal.class));
         cards.add(new SetCardInfo("Bogwater Lumaret", 177, Rarity.COMMON, mage.cards.b.BogwaterLumaret.class));
+        cards.add(new SetCardInfo("Colorstorm Stallion", 180, Rarity.RARE, mage.cards.c.ColorstormStallion.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Colorstorm Stallion", 299, Rarity.RARE, mage.cards.c.ColorstormStallion.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Cuboid Colony", 183, Rarity.UNCOMMON, mage.cards.c.CuboidColony.class));
         cards.add(new SetCardInfo("Deathcap Glade", 253, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deathcap Glade", 301, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
