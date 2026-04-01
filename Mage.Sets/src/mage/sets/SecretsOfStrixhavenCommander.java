@@ -204,6 +204,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Perpetual Timepiece", 354, Rarity.UNCOMMON, mage.cards.p.PerpetualTimepiece.class));
         cards.add(new SetCardInfo("Perplexing Test", 197, Rarity.RARE, mage.cards.p.PerplexingTest.class));
         cards.add(new SetCardInfo("Pest Infestation", 282, Rarity.RARE, mage.cards.p.PestInfestation.class));
+        cards.add(new SetCardInfo("Pest Rescuer", 42, Rarity.RARE, mage.cards.p.PestRescuer.class));
         cards.add(new SetCardInfo("Plargg and Nassari", 250, Rarity.RARE, mage.cards.p.PlarggAndNassari.class));
         cards.add(new SetCardInfo("Plumb the Forbidden", 224, Rarity.UNCOMMON, mage.cards.p.PlumbTheForbidden.class));
         cards.add(new SetCardInfo("Priest of Forgotten Gods", 225, Rarity.RARE, mage.cards.p.PriestOfForgottenGods.class));
