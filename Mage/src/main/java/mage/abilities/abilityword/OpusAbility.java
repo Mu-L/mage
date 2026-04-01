@@ -21,22 +21,24 @@ import mage.util.CardUtil;
  */
 public class OpusAbility extends SpellCastControllerTriggeredAbility {
 
-    public OpusAbility(Effect effect) {
-        this(effect, false);
-    }
-
-    public OpusAbility(Effect effect, boolean optional) {
-        super(effect, StaticFilters.FILTER_SPELL_AN_INSTANT_OR_SORCERY, optional);
+    public OpusAbility(Effect mainEffect, Effect extraEffect, String text, boolean doInstead) {
+        super(null, StaticFilters.FILTER_SPELL_AN_INSTANT_OR_SORCERY, false);
+        if (doInstead) {
+            this.addEffect(new ConditionalOneShotEffect(
+                    wrapEffect(mainEffect), wrapEffect(extraEffect), OpusCondition.instance, text
+            ));
+        } else {
+            this.addEffect(mainEffect);
+            this.addEffect(new ConditionalOneShotEffect(wrapEffect(extraEffect), OpusCondition.instance));
+        }
         this.setAbilityWord(AbilityWord.OPUS);
     }
 
-    public OpusAbility withBonusEffect(ContinuousEffect effect) {
-        return this.withBonusEffect(new AddContinuousEffectToGame(effect));
-    }
-
-    public OpusAbility withBonusEffect(OneShotEffect effect) {
-        this.addEffect(new ConditionalOneShotEffect(effect, OpusCondition.instance));
-        return this;
+    private OneShotEffect wrapEffect(Effect effect) {
+        if (effect instanceof ContinuousEffect) {
+            return new AddContinuousEffectToGame((ContinuousEffect) effect);
+        }
+        return (OneShotEffect) effect;
     }
 
     private OpusAbility(final OpusAbility ability) {
