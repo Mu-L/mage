@@ -158,6 +158,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Kor Spiritdancer", 152, Rarity.RARE, mage.cards.k.KorSpiritdancer.class));
         cards.add(new SetCardInfo("Laelia, the Blade Reforged", 246, Rarity.RARE, mage.cards.l.LaeliaTheBladeReforged.class));
         cards.add(new SetCardInfo("Land Tax", 153, Rarity.MYTHIC, mage.cards.l.LandTax.class));
+        cards.add(new SetCardInfo("Leitmotif Composer", 20, Rarity.RARE, mage.cards.l.LeitmotifComposer.class));
         cards.add(new SetCardInfo("Lifeblood Hydra", 274, Rarity.RARE, mage.cards.l.LifebloodHydra.class));
         cards.add(new SetCardInfo("Lightning Greaves", 350, Rarity.UNCOMMON, mage.cards.l.LightningGreaves.class));
         cards.add(new SetCardInfo("Llanowar Wastes", 383, Rarity.RARE, mage.cards.l.LlanowarWastes.class));
