@@ -47,6 +47,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Mathemagics", 320, Rarity.MYTHIC, mage.cards.m.Mathemagics.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mathemagics", 58, Rarity.MYTHIC, mage.cards.m.Mathemagics.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mountain", 270, Rarity.LAND, mage.cards.basiclands.Mountain.class, FULL_ART_BFZ_VARIOUS));
+        cards.add(new SetCardInfo("Old-Growth Educator", 207, Rarity.UNCOMMON, mage.cards.o.OldGrowthEducator.class));
         cards.add(new SetCardInfo("Oracle's Restoration", 156, Rarity.COMMON, mage.cards.o.OraclesRestoration.class));
         cards.add(new SetCardInfo("Pensive Professor", 321, Rarity.RARE, mage.cards.p.PensiveProfessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pensive Professor", 63, Rarity.RARE, mage.cards.p.PensiveProfessor.class, NON_FULL_USE_VARIOUS));
