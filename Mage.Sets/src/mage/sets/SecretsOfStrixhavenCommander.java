@@ -102,6 +102,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Eriette of the Charmed Apple", 307, Rarity.MYTHIC, mage.cards.e.ErietteOfTheCharmedApple.class));
         cards.add(new SetCardInfo("Eureka Moment", 308, Rarity.COMMON, mage.cards.e.EurekaMoment.class));
         cards.add(new SetCardInfo("Exotic Orchard", 369, Rarity.RARE, mage.cards.e.ExoticOrchard.class));
+        cards.add(new SetCardInfo("Expansion Algorithm", 19, Rarity.RARE, mage.cards.e.ExpansionAlgorithm.class));
         cards.add(new SetCardInfo("Expressive Iteration", 309, Rarity.UNCOMMON, mage.cards.e.ExpressiveIteration.class));
         cards.add(new SetCardInfo("Fabled Passage", 130, Rarity.RARE, mage.cards.f.FabledPassage.class));
         cards.add(new SetCardInfo("Faerie Mastermind", 114, Rarity.RARE, mage.cards.f.FaerieMastermind.class));
