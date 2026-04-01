@@ -187,6 +187,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Night's Whisper", 221, Rarity.COMMON, mage.cards.n.NightsWhisper.class));
         cards.add(new SetCardInfo("Nils, Discipline Enforcer", 158, Rarity.RARE, mage.cards.n.NilsDisciplineEnforcer.class));
         cards.add(new SetCardInfo("Ohran Frostfang", 279, Rarity.RARE, mage.cards.o.OhranFrostfang.class));
+        cards.add(new SetCardInfo("Ominous Harvest", 28, Rarity.RARE, mage.cards.o.OminousHarvest.class));
         cards.add(new SetCardInfo("Opal Palace", 390, Rarity.COMMON, mage.cards.o.OpalPalace.class));
         cards.add(new SetCardInfo("Open the Way", 280, Rarity.RARE, mage.cards.o.OpenTheWay.class));
         cards.add(new SetCardInfo("Ophiomancer", 118, Rarity.RARE, mage.cards.o.Ophiomancer.class));
