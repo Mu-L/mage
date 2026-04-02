@@ -320,6 +320,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Treasure Cruise", 205, Rarity.COMMON, mage.cards.t.TreasureCruise.class));
         cards.add(new SetCardInfo("Troyan, Gutsy Explorer", 334, Rarity.UNCOMMON, mage.cards.t.TroyanGutsyExplorer.class));
         cards.add(new SetCardInfo("Trudge Garden", 290, Rarity.RARE, mage.cards.t.TrudgeGarden.class));
+        cards.add(new SetCardInfo("Turbulent Fen", 55, Rarity.RARE, mage.cards.t.TurbulentFen.class));
         cards.add(new SetCardInfo("Turbulent Moor", 56, Rarity.RARE, mage.cards.t.TurbulentMoor.class));
         cards.add(new SetCardInfo("Turbulent Springs", 57, Rarity.RARE, mage.cards.t.TurbulentSprings.class));
         cards.add(new SetCardInfo("Twilight Mire", 418, Rarity.RARE, mage.cards.t.TwilightMire.class));
