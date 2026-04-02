@@ -3,6 +3,7 @@ package mage.game.permanent.token;
 import mage.MageInt;
 import mage.abilities.Ability;
 import mage.abilities.dynamicvalue.DynamicValue;
+import mage.abilities.effects.Effect;
 import mage.abilities.effects.OneShotEffect;
 import mage.constants.CardType;
 import mage.constants.Outcome;
@@ -36,28 +37,28 @@ public final class FractalToken extends TokenImpl {
         return new FractalToken(this);
     }
 
-    public static QuandrixTokenEffect getEffect(DynamicValue xValue, String text) {
-        return new QuandrixTokenEffect(xValue, text);
+    public static Effect getEffect(DynamicValue xValue, String text) {
+        return new FractalTokenEffect(xValue, text);
     }
 
-    private static final class QuandrixTokenEffect extends OneShotEffect {
+    private static final class FractalTokenEffect extends OneShotEffect {
 
         private final DynamicValue xValue;
 
-        private QuandrixTokenEffect(DynamicValue xValue, String text) {
+        private FractalTokenEffect(DynamicValue xValue, String text) {
             super(Outcome.Benefit);
             this.xValue = xValue;
-            this.staticText = "create a 0/0 green and blue Fractal creature token. " + text;
+            this.staticText = "create a 0/0 green and blue Fractal creature token" + text;
         }
 
-        private QuandrixTokenEffect(final QuandrixTokenEffect effect) {
+        private FractalTokenEffect(final FractalTokenEffect effect) {
             super(effect);
             this.xValue = effect.xValue;
         }
 
         @Override
-        public QuandrixTokenEffect copy() {
-            return new QuandrixTokenEffect(this);
+        public FractalTokenEffect copy() {
+            return new FractalTokenEffect(this);
         }
 
         @Override
