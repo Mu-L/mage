@@ -317,6 +317,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Twinflame", 258, Rarity.RARE, mage.cards.t.Twinflame.class));
         cards.add(new SetCardInfo("Tyvar's Stand", 291, Rarity.UNCOMMON, mage.cards.t.TyvarsStand.class));
         cards.add(new SetCardInfo("Umbral Collar Zealot", 227, Rarity.UNCOMMON, mage.cards.u.UmbralCollarZealot.class));
+        cards.add(new SetCardInfo("Umbral Expanse", 60, Rarity.RARE, mage.cards.u.UmbralExpanse.class));
         cards.add(new SetCardInfo("Unbound Flourishing", 126, Rarity.MYTHIC, mage.cards.u.UnboundFlourishing.class));
         cards.add(new SetCardInfo("Vanishing Verse", 335, Rarity.RARE, mage.cards.v.VanishingVerse.class));
         cards.add(new SetCardInfo("Veinwitch Coven", 228, Rarity.RARE, mage.cards.v.VeinwitchCoven.class));
