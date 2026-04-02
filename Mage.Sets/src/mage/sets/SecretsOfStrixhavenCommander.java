@@ -228,6 +228,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Quandrix Campus", 395, Rarity.COMMON, mage.cards.q.QuandrixCampus.class));
         cards.add(new SetCardInfo("Quandrix Command", 325, Rarity.RARE, mage.cards.q.QuandrixCommand.class));
         cards.add(new SetCardInfo("Quintorius, Field Historian", 326, Rarity.UNCOMMON, mage.cards.q.QuintoriusFieldHistorian.class));
+        cards.add(new SetCardInfo("Quintorius, History Chaser", 7, Rarity.MYTHIC, mage.cards.q.QuintoriusHistoryChaser.class));
         cards.add(new SetCardInfo("Quintorius, Loremaster", 327, Rarity.RARE, mage.cards.q.QuintoriusLoremaster.class));
         cards.add(new SetCardInfo("Radiant Summit", 396, Rarity.RARE, mage.cards.r.RadiantSummit.class));
         cards.add(new SetCardInfo("Raffine's Guidance", 162, Rarity.COMMON, mage.cards.r.RaffinesGuidance.class));
