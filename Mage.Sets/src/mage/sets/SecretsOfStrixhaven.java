@@ -121,6 +121,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Titan's Grave", 266, Rarity.COMMON, mage.cards.t.TitansGrave.class));
         cards.add(new SetCardInfo("Together as One", 307, Rarity.RARE, mage.cards.t.TogetherAsOne.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Together as One", 4, Rarity.RARE, mage.cards.t.TogetherAsOne.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Traumatic Critique", 239, Rarity.RARE, mage.cards.t.TraumaticCritique.class));
         cards.add(new SetCardInfo("Wisdom of Ages", 323, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Wisdom of Ages", 368, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Wisdom of Ages", 71, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
