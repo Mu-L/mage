@@ -18,7 +18,7 @@ public enum OpponentsControlEightLandsCondition implements Condition {
     private static final FilterPermanent filter = new FilterLandPermanent();
 
     static {
-        filter.add(TargetController.OPPONENT.getOwnerPredicate());
+        filter.add(TargetController.OPPONENT.getControllerPredicate());
     }
 
     private static final Hint hint = new ValueHint(
