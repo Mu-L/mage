@@ -73,6 +73,7 @@ public abstract class PermanentImpl extends CardImpl implements Permanent {
     protected boolean monstrous;
     protected boolean renowned;
     protected boolean suspected;
+    protected boolean prepared;
     protected boolean harnessed = false;
     protected boolean manifested = false;
     protected boolean cloaked = false;
@@ -181,6 +182,7 @@ public abstract class PermanentImpl extends CardImpl implements Permanent {
         this.monstrous = permanent.monstrous;
         this.renowned = permanent.renowned;
         this.suspected = permanent.suspected;
+        this.prepared = permanent.prepared;
         this.harnessed = permanent.harnessed;
         this.ringBearerFlag = permanent.ringBearerFlag;
         this.classLevel = permanent.classLevel;
@@ -1791,6 +1793,26 @@ public abstract class PermanentImpl extends CardImpl implements Permanent {
         }
 
         this.ringBearerFlag = value;
+    }
+
+    private static final String preparedInfoKey = "IS_PREPARED";
+
+    @Override
+    public boolean isPrepared() {
+        return prepared;
+    }
+
+    @Override
+    public void setPrepared(boolean prepared, Game game) {
+        if (this.prepared == prepared) {
+            return;
+        }
+        this.prepared = prepared;
+        if (this.prepared) {
+            addInfo(preparedInfoKey, CardUtil.addToolTipMarkTags("Prepared"), game);
+        } else {
+            addInfo(preparedInfoKey, null, game);
+        }
     }
 
     @Override
