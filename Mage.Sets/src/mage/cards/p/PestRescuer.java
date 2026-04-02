@@ -18,7 +18,7 @@ import mage.constants.TargetController;
 import mage.filter.FilterPermanent;
 import mage.filter.common.FilterControlledCreaturePermanent;
 import mage.filter.predicate.permanent.TokenPredicate;
-import mage.game.permanent.token.Pest11GainLifeToken;
+import mage.game.permanent.token.PestBlackGreenDiesToken;
 
 import java.util.UUID;
 
@@ -47,7 +47,7 @@ public final class PestRescuer extends CardImpl {
 
         // At the beginning of each upkeep, if you don't control a Pest creature token, create a 1/1 black and green Pest creature token with "When this token dies, you gain 1 life."
         this.addAbility(new BeginningOfUpkeepTriggeredAbility(
-                TargetController.ANY, new CreateTokenEffect(new Pest11GainLifeToken()), false
+                TargetController.ANY, new CreateTokenEffect(new PestBlackGreenDiesToken()), false
         ).withInterveningIf(condition).addHint(hint));
 
         // If you would gain life, you gain that much life plus 1 instead.
