@@ -245,6 +245,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Sacred Peaks", 402, Rarity.COMMON, mage.cards.s.SacredPeaks.class));
         cards.add(new SetCardInfo("Sage's Reverie", 165, Rarity.UNCOMMON, mage.cards.s.SagesReverie.class));
         cards.add(new SetCardInfo("Sakura-Tribe Elder", 285, Rarity.COMMON, mage.cards.s.SakuraTribeElder.class));
+        cards.add(new SetCardInfo("Scorched Geyser", 54, Rarity.RARE, mage.cards.s.ScorchedGeyser.class));
         cards.add(new SetCardInfo("Screams from Within", 119, Rarity.UNCOMMON, mage.cards.s.ScreamsFromWithin.class));
         cards.add(new SetCardInfo("Secret Rendezvous", 166, Rarity.UNCOMMON, mage.cards.s.SecretRendezvous.class));
         cards.add(new SetCardInfo("Selfless Spirit", 167, Rarity.RARE, mage.cards.s.SelflessSpirit.class));
