@@ -61,6 +61,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Island", 268, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Island", 274, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 275, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Landscape Painter", 56, Rarity.COMMON, mage.cards.l.LandscapePainter.class));
         cards.add(new SetCardInfo("Lorehold Charm", 200, Rarity.UNCOMMON, mage.cards.l.LoreholdCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lorehold Charm", 363, Rarity.UNCOMMON, mage.cards.l.LoreholdCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lumaret's Favor", 153, Rarity.UNCOMMON, mage.cards.l.LumaretsFavor.class));
