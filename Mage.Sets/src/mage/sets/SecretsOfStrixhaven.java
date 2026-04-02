@@ -4,11 +4,15 @@ import mage.cards.ExpansionSet;
 import mage.constants.Rarity;
 import mage.constants.SetType;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author TheElk801
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Emeritus of Ideation", "Grave Researcher", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Sanar, Unfinished Genius", "Studious First-Year", "Tam, Observant Sequencer");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -20,6 +24,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         this.blockName = "Secrets of Strixhaven"; // for sorting in GUI
         this.hasBasicLands = true;
 
+        cards.add(new SetCardInfo("Abigale, Poet Laureate", 170, Rarity.UNCOMMON, mage.cards.a.AbigalePoetLaureate.class));
         cards.add(new SetCardInfo("Arcane Omens", 73, Rarity.UNCOMMON, mage.cards.a.ArcaneOmens.class));
         cards.add(new SetCardInfo("Archaic's Agony", 107, Rarity.UNCOMMON, mage.cards.a.ArchaicsAgony.class));
         cards.add(new SetCardInfo("Banishing Betrayal", 38, Rarity.COMMON, mage.cards.b.BanishingBetrayal.class));
@@ -114,5 +119,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Witherbloom Charm", 367, Rarity.UNCOMMON, mage.cards.w.WitherbloomCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Withering Curse", 105, Rarity.MYTHIC, mage.cards.w.WitheringCurse.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Withering Curse", 330, Rarity.MYTHIC, mage.cards.w.WitheringCurse.class, NON_FULL_USE_VARIOUS));
+
+        cards.removeIf(setCardInfo -> unfinished.contains(setCardInfo.getName()));
     }
 }
