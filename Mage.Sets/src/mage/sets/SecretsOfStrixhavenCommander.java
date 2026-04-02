@@ -93,6 +93,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Dina, Soul Steeper", 305, Rarity.UNCOMMON, mage.cards.d.DinaSoulSteeper.class));
         cards.add(new SetCardInfo("Doomwake Giant", 212, Rarity.RARE, mage.cards.d.DoomwakeGiant.class));
         cards.add(new SetCardInfo("Drumbellower", 143, Rarity.RARE, mage.cards.d.Drumbellower.class));
+        cards.add(new SetCardInfo("Eclipsed Steppe", 53, Rarity.RARE, mage.cards.e.EclipsedSteppe.class));
         cards.add(new SetCardInfo("Eidolon of Countless Battles", 144, Rarity.RARE, mage.cards.e.EidolonOfCountlessBattles.class));
         cards.add(new SetCardInfo("Eldrazi Conscription", 131, Rarity.RARE, mage.cards.e.EldraziConscription.class));
         cards.add(new SetCardInfo("Elementalist's Palette", 346, Rarity.RARE, mage.cards.e.ElementalistsPalette.class));
