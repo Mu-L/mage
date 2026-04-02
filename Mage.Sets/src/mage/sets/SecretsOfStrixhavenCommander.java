@@ -4,11 +4,15 @@ import mage.cards.ExpansionSet;
 import mage.constants.Rarity;
 import mage.constants.SetType;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author TheElk801
  */
 public final class SecretsOfStrixhavenCommander extends ExpansionSet {
 
+    private static final List<String> unfinished = Arrays.asList("Defacing Duskmage", "Dirgur Focusmage", "Eccentric Pestfinder", "Eiganjo Dynastorian", "Inspired Skypainter", "Lorehold Archivist", "Naktamun Lorespinner", "Stensian Sanguinist", "Striding Shotcaller", "Yavimaya Bloomsage");
     private static final SecretsOfStrixhavenCommander instance = new SecretsOfStrixhavenCommander();
 
     public static SecretsOfStrixhavenCommander getInstance() {
@@ -185,6 +189,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Mortality Spear", 321, Rarity.UNCOMMON, mage.cards.m.MortalitySpear.class));
         cards.add(new SetCardInfo("Mycoloth", 276, Rarity.RARE, mage.cards.m.Mycoloth.class));
         cards.add(new SetCardInfo("Mystic Sanctuary", 388, Rarity.COMMON, mage.cards.m.MysticSanctuary.class));
+        cards.add(new SetCardInfo("Naktamun Lorespinner", 33, Rarity.RARE, mage.cards.n.NaktamunLorespinner.class));
         cards.add(new SetCardInfo("Nature's Lore", 278, Rarity.UNCOMMON, mage.cards.n.NaturesLore.class));
         cards.add(new SetCardInfo("Necroblossom Snarl", 389, Rarity.RARE, mage.cards.n.NecroblossomSnarl.class));
         cards.add(new SetCardInfo("Nether Traitor", 220, Rarity.RARE, mage.cards.n.NetherTraitor.class));
@@ -345,5 +350,7 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Zimone, All-Questioning", 340, Rarity.RARE, mage.cards.z.ZimoneAllQuestioning.class));
         cards.add(new SetCardInfo("Zimone, Quandrix Prodigy", 341, Rarity.UNCOMMON, mage.cards.z.ZimoneQuandrixProdigy.class));
         cards.add(new SetCardInfo("Zulaport Cutthroat", 233, Rarity.UNCOMMON, mage.cards.z.ZulaportCutthroat.class));
+
+        cards.removeIf(setCardInfo -> unfinished.contains(setCardInfo.getName()));
     }
 }
