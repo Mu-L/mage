@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Ideation", "Grave Researcher", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Sanar, Unfinished Genius", "Studious First-Year", "Tam, Observant Sequencer");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Ideation", "Grave Researcher", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Studious First-Year", "Tam, Observant Sequencer");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -112,7 +112,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Spectacle Summit", 262, Rarity.COMMON, mage.cards.s.SpectacleSummit.class));
         cards.add(new SetCardInfo("Spectacular Skywhale", 229, Rarity.UNCOMMON, mage.cards.s.SpectacularSkywhale.class));
         cards.add(new SetCardInfo("Spirit Mascot", 230, Rarity.COMMON, mage.cards.s.SpiritMascot.class));
-        cards.add(new SetCardInfo("Splatter Technique", 231, Rarity.RARE, mage.cards.s.SplatterTechnique.class));
+        cards.add(new SetCardInfo("Splatter Technique", 231, Rarity.RARE, mage.cards.s.SplatterTechnique.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Splatter Technique", 356, Rarity.RARE, mage.cards.s.SplatterTechnique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stormcarved Coast", 263, Rarity.RARE, mage.cards.s.StormcarvedCoast.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stormcarved Coast", 304, Rarity.RARE, mage.cards.s.StormcarvedCoast.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stress Dream", 235, Rarity.UNCOMMON, mage.cards.s.StressDream.class));
