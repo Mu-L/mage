@@ -240,6 +240,8 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Primordial Hydra", 284, Rarity.MYTHIC, mage.cards.p.PrimordialHydra.class));
         cards.add(new SetCardInfo("Prismari Campus", 394, Rarity.COMMON, mage.cards.p.PrismariCampus.class));
         cards.add(new SetCardInfo("Prismari Command", 323, Rarity.RARE, mage.cards.p.PrismariCommand.class));
+        cards.add(new SetCardInfo("Prismari Pianist", 34, Rarity.RARE, mage.cards.p.PrismariPianist.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Prismari Pianist", 82, Rarity.RARE, mage.cards.p.PrismariPianist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Promise of Loyalty", 161, Rarity.RARE, mage.cards.p.PromiseOfLoyalty.class));
         cards.add(new SetCardInfo("Pull from Tomorrow", 116, Rarity.RARE, mage.cards.p.PullFromTomorrow.class));
         cards.add(new SetCardInfo("Quandrix Apprentice", 324, Rarity.UNCOMMON, mage.cards.q.QuandrixApprentice.class));
