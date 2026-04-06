@@ -58,6 +58,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Erode", 310, Rarity.RARE, mage.cards.e.Erode.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Exhibition Tidecaller", 316, Rarity.RARE, mage.cards.e.ExhibitionTidecaller.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Exhibition Tidecaller", 48, Rarity.RARE, mage.cards.e.ExhibitionTidecaller.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Expressive Firedancer", 114, Rarity.COMMON, mage.cards.e.ExpressiveFiredancer.class));
         cards.add(new SetCardInfo("Fields of Strife", 255, Rarity.COMMON, mage.cards.f.FieldsOfStrife.class));
         cards.add(new SetCardInfo("Forest", 271, Rarity.LAND, mage.cards.basiclands.Forest.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Forest", 280, Rarity.LAND, mage.cards.basiclands.Forest.class, NON_FULL_USE_VARIOUS));
