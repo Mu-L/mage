@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Conflict", "Emeritus of Ideation", "Grave Researcher", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Grave Researcher", "Harmonized Trio", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -146,7 +146,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Wisdom of Ages", 71, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Witherbloom Charm", 244, Rarity.UNCOMMON, mage.cards.w.WitherbloomCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Witherbloom Charm", 367, Rarity.UNCOMMON, mage.cards.w.WitherbloomCharm.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Witherbloom, the Balancer", 245, Rarity.MYTHIC, mage.cards.w.WitherbloomTheBalancer.class));
+        cards.add(new SetCardInfo("Witherbloom, the Balancer", 245, Rarity.MYTHIC, mage.cards.w.WitherbloomTheBalancer.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Witherbloom, the Balancer", 288, Rarity.MYTHIC, mage.cards.w.WitherbloomTheBalancer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Withering Curse", 105, Rarity.MYTHIC, mage.cards.w.WitheringCurse.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Withering Curse", 330, Rarity.MYTHIC, mage.cards.w.WitheringCurse.class, NON_FULL_USE_VARIOUS));
 
