@@ -27,6 +27,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Abigale, Poet Laureate", 170, Rarity.UNCOMMON, mage.cards.a.AbigalePoetLaureate.class));
         cards.add(new SetCardInfo("Arcane Omens", 73, Rarity.UNCOMMON, mage.cards.a.ArcaneOmens.class));
         cards.add(new SetCardInfo("Archaic's Agony", 107, Rarity.UNCOMMON, mage.cards.a.ArchaicsAgony.class));
+        cards.add(new SetCardInfo("Ark of Hunger", 173, Rarity.RARE, mage.cards.a.ArkOfHunger.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ark of Hunger", 344, Rarity.RARE, mage.cards.a.ArkOfHunger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Artistic Process", 108, Rarity.UNCOMMON, mage.cards.a.ArtisticProcess.class));
         cards.add(new SetCardInfo("Banishing Betrayal", 38, Rarity.COMMON, mage.cards.b.BanishingBetrayal.class));
         cards.add(new SetCardInfo("Berta, Wise Extrapolator", 175, Rarity.RARE, mage.cards.b.BertaWiseExtrapolator.class, NON_FULL_USE_VARIOUS));
