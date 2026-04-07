@@ -110,6 +110,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 267, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Plains", 272, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 273, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Primary Research", 26, Rarity.UNCOMMON, mage.cards.p.PrimaryResearch.class));
         cards.add(new SetCardInfo("Planar Engineering", 158, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Planar Engineering", 340, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Practiced Offense", 25, Rarity.RARE, mage.cards.p.PracticedOffense.class));
