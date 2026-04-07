@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Grave Researcher", "Harmonized Trio", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Grave Researcher", "Harmonized Trio", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -79,6 +79,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Harmonized Trio", 317, Rarity.RARE, mage.cards.h.HarmonizedTrio.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Harmonized Trio", 52, Rarity.RARE, mage.cards.h.HarmonizedTrio.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Heated Argument", 118, Rarity.COMMON, mage.cards.h.HeatedArgument.class));
+        cards.add(new SetCardInfo("Impractical Joke", 119, Rarity.UNCOMMON, mage.cards.i.ImpracticalJoke.class));
         cards.add(new SetCardInfo("Inkling Mascot", 196, Rarity.COMMON, mage.cards.i.InklingMascot.class));
         cards.add(new SetCardInfo("Island", 268, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Island", 274, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
@@ -112,11 +113,12 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 267, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Plains", 272, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 273, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Primary Research", 26, Rarity.UNCOMMON, mage.cards.p.PrimaryResearch.class));
         cards.add(new SetCardInfo("Planar Engineering", 158, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Planar Engineering", 340, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Practiced Offense", 25, Rarity.RARE, mage.cards.p.PracticedOffense.class));
+        cards.add(new SetCardInfo("Practiced Offense", 25, Rarity.RARE, mage.cards.p.PracticedOffense.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Practiced Offense", 313, Rarity.RARE, mage.cards.p.PracticedOffense.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Practiced Scrollsmith", 210, Rarity.UNCOMMON, mage.cards.p.PracticedScrollsmith.class));
+        cards.add(new SetCardInfo("Primary Research", 26, Rarity.UNCOMMON, mage.cards.p.PrimaryResearch.class));
         cards.add(new SetCardInfo("Prismari Charm", 211, Rarity.UNCOMMON, mage.cards.p.PrismariCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prismari Charm", 364, Rarity.UNCOMMON, mage.cards.p.PrismariCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prismari, the Inspiration", 212, Rarity.MYTHIC, mage.cards.p.PrismariTheInspiration.class, NON_FULL_USE_VARIOUS));
@@ -126,7 +128,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Professor Dellian Fel", 283, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pterafractyl", 215, Rarity.COMMON, mage.cards.p.Pterafractyl.class));
         cards.add(new SetCardInfo("Pull from the Grave", 95, Rarity.COMMON, mage.cards.p.PullFromTheGrave.class));
-        cards.add(new SetCardInfo("Quandrix Charm", 217, Rarity.UNCOMMON, mage.cards.q.QuandrixCharm.class));
+        cards.add(new SetCardInfo("Quandrix Charm", 217, Rarity.UNCOMMON, mage.cards.q.QuandrixCharm.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Quandrix Charm", 365, Rarity.UNCOMMON, mage.cards.q.QuandrixCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Rancorous Archaic", 2, Rarity.COMMON, mage.cards.r.RancorousArchaic.class));
         cards.add(new SetCardInfo("Rapturous Moment", 219, Rarity.UNCOMMON, mage.cards.r.RapturousMoment.class));
         cards.add(new SetCardInfo("Resonating Lute", 221, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
