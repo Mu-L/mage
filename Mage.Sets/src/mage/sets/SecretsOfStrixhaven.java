@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Grave Researcher", "Harmonized Trio", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Encouraging Aviator", "Grave Researcher", "Harmonized Trio", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Skycoach Conductor", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -98,7 +98,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Maelstrom Artisan", 334, Rarity.RARE, mage.cards.m.MaelstromArtisan.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mathemagics", 320, Rarity.MYTHIC, mage.cards.m.Mathemagics.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mathemagics", 58, Rarity.MYTHIC, mage.cards.m.Mathemagics.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Mind into Matter", 202, Rarity.RARE, mage.cards.m.MindIntoMatter.class));
+        cards.add(new SetCardInfo("Mind into Matter", 202, Rarity.RARE, mage.cards.m.MindIntoMatter.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Mind into Matter", 352, Rarity.RARE, mage.cards.m.MindIntoMatter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Molten Note", 204, Rarity.UNCOMMON, mage.cards.m.MoltenNote.class));
         cards.add(new SetCardInfo("Molten-Core Maestro", 125, Rarity.RARE, mage.cards.m.MoltenCoreMaestro.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Molten-Core Maestro", 335, Rarity.RARE, mage.cards.m.MoltenCoreMaestro.class, NON_FULL_USE_VARIOUS));
