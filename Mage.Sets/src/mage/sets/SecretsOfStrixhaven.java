@@ -165,6 +165,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Spiritcall Enthusiast", 33, Rarity.UNCOMMON, mage.cards.s.SpiritcallEnthusiast.class));
         cards.add(new SetCardInfo("Splatter Technique", 231, Rarity.RARE, mage.cards.s.SplatterTechnique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Splatter Technique", 356, Rarity.RARE, mage.cards.s.SplatterTechnique.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Stand Up for Yourself", 34, Rarity.UNCOMMON, mage.cards.s.StandUpForYourself.class));
         cards.add(new SetCardInfo("Stormcarved Coast", 263, Rarity.RARE, mage.cards.s.StormcarvedCoast.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stormcarved Coast", 304, Rarity.RARE, mage.cards.s.StormcarvedCoast.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stress Dream", 235, Rarity.UNCOMMON, mage.cards.s.StressDream.class));
