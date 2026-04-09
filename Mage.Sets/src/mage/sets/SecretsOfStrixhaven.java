@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Encouraging Aviator", "Grave Researcher", "Harmonized Trio", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Sanar, Unfinished Genius", "Skycoach Conductor", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Campus Composer", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Emeritus of Truce", "Encouraging Aviator", "Grave Researcher", "Harmonized Trio", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Lluwen, Exchange Student", "Maelstrom Artisan", "Quill-Blade Laureate", "Sanar, Unfinished Genius", "Scheming Silvertongue", "Skycoach Conductor", "Spiritcall Enthusiast", "Studious First-Year", "Tam, Observant Sequencer", "Vastlands Scavenger");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -119,7 +119,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Pensive Professor", 321, Rarity.RARE, mage.cards.p.PensiveProfessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pensive Professor", 63, Rarity.RARE, mage.cards.p.PensiveProfessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pest Mascot", 209, Rarity.COMMON, mage.cards.p.PestMascot.class));
-        cards.add(new SetCardInfo("Petrified Hamlet", 259, Rarity.RARE, mage.cards.p.PetrifiedHamlet.class));
+        cards.add(new SetCardInfo("Petrified Hamlet", 259, Rarity.RARE, mage.cards.p.PetrifiedHamlet.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Petrified Hamlet", 362, Rarity.RARE, mage.cards.p.PetrifiedHamlet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 267, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Plains", 272, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 273, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
@@ -150,7 +151,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Shattered Sanctum", 303, Rarity.RARE, mage.cards.s.ShatteredSanctum.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Silverquill Charm", 225, Rarity.UNCOMMON, mage.cards.s.SilverquillCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Silverquill Charm", 366, Rarity.UNCOMMON, mage.cards.s.SilverquillCharm.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Skycoach Conductor", 322, Rarity.RARE, mage.cards.s.SkycoachConductor.class));
+        cards.add(new SetCardInfo("Skycoach Conductor", 322, Rarity.RARE, mage.cards.s.SkycoachConductor.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Skycoach Conductor", 67, Rarity.RARE, mage.cards.s.SkycoachConductor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skycoach Waypoint", 261, Rarity.UNCOMMON, mage.cards.s.SkycoachWaypoint.class));
         cards.add(new SetCardInfo("Social Snub", 228, Rarity.UNCOMMON, mage.cards.s.SocialSnub.class));
         cards.add(new SetCardInfo("Spectacle Summit", 262, Rarity.COMMON, mage.cards.s.SpectacleSummit.class));
