@@ -228,6 +228,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Tome Blast", 135, Rarity.COMMON, mage.cards.t.TomeBlast.class));
         cards.add(new SetCardInfo("Traumatic Critique", 239, Rarity.RARE, mage.cards.t.TraumaticCritique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Traumatic Critique", 358, Rarity.RARE, mage.cards.t.TraumaticCritique.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Unsubtle Mockery", 136, Rarity.COMMON, mage.cards.u.UnsubtleMockery.class));
         cards.add(new SetCardInfo("Vastlands Scavenger", 166, Rarity.RARE, mage.cards.v.VastlandsScavenger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vastlands Scavenger", 342, Rarity.RARE, mage.cards.v.VastlandsScavenger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Wild Hypothesis", 167, Rarity.COMMON, mage.cards.w.WildHypothesis.class));
