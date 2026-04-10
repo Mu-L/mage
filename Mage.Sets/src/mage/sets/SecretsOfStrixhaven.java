@@ -158,6 +158,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Prismari, the Inspiration", 212, Rarity.MYTHIC, mage.cards.p.PrismariTheInspiration.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prismari, the Inspiration", 285, Rarity.MYTHIC, mage.cards.p.PrismariTheInspiration.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Procrastinate", 64, Rarity.COMMON, mage.cards.p.Procrastinate.class));
+        cards.add(new SetCardInfo("Proctor's Gaze", 213, Rarity.UNCOMMON, mage.cards.p.ProctorsGaze.class));
         cards.add(new SetCardInfo("Professor Dellian Fel", 214, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Professor Dellian Fel", 283, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pterafractyl", 215, Rarity.COMMON, mage.cards.p.Pterafractyl.class));
