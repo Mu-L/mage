@@ -162,6 +162,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Professor Dellian Fel", 283, Rarity.MYTHIC, mage.cards.p.ProfessorDellianFel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pterafractyl", 215, Rarity.COMMON, mage.cards.p.Pterafractyl.class));
         cards.add(new SetCardInfo("Pull from the Grave", 95, Rarity.COMMON, mage.cards.p.PullFromTheGrave.class));
+        cards.add(new SetCardInfo("Pursue the Past", 216, Rarity.COMMON, mage.cards.p.PursueThePast.class));
         cards.add(new SetCardInfo("Quandrix Charm", 217, Rarity.UNCOMMON, mage.cards.q.QuandrixCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Quandrix Charm", 365, Rarity.UNCOMMON, mage.cards.q.QuandrixCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Quandrix, the Proof", 218, Rarity.MYTHIC, mage.cards.q.QuandrixTheProof.class, NON_FULL_USE_VARIOUS));
