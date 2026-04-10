@@ -1,5 +1,4 @@
-
-package mage.cards.g;
+package mage.cards.c;
 
 import mage.abilities.effects.common.continuous.BoostTargetEffect;
 import mage.abilities.effects.common.continuous.GainAbilityTargetEffect;
@@ -13,12 +12,12 @@ import mage.target.common.TargetControlledCreaturePermanent;
 import java.util.UUID;
 
 /**
- * @author fireshoes
+ * @author TheElk801
  */
-public final class Glint extends CardImpl {
+public final class ChaseInspiration extends CardImpl {
 
-    public Glint(UUID ownerId, CardSetInfo setInfo) {
-        super(ownerId, setInfo, new CardType[]{CardType.INSTANT}, "{1}{U}");
+    public ChaseInspiration(UUID ownerId, CardSetInfo setInfo) {
+        super(ownerId, setInfo, new CardType[]{CardType.INSTANT}, "{U}");
 
         // Target creature you control gets +0/+3 and gains hexproof until end of turn.
         this.getSpellAbility().addEffect(new BoostTargetEffect(
@@ -30,12 +29,12 @@ public final class Glint extends CardImpl {
         this.getSpellAbility().addTarget(new TargetControlledCreaturePermanent());
     }
 
-    private Glint(final Glint card) {
+    private ChaseInspiration(final ChaseInspiration card) {
         super(card);
     }
 
     @Override
-    public Glint copy() {
-        return new Glint(this);
+    public ChaseInspiration copy() {
+        return new ChaseInspiration(this);
     }
 }
