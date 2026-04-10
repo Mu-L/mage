@@ -36,6 +36,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Berta, Wise Extrapolator", 175, Rarity.RARE, mage.cards.b.BertaWiseExtrapolator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Berta, Wise Extrapolator", 346, Rarity.RARE, mage.cards.b.BertaWiseExtrapolator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Biblioplex Tomekeeper", 247, Rarity.COMMON, mage.cards.b.BiblioplexTomekeeper.class));
+        cards.add(new SetCardInfo("Blazing Firesinger", 109, Rarity.UNCOMMON, mage.cards.b.BlazingFiresinger.class));
         cards.add(new SetCardInfo("Blech, Loafing Pest", 176, Rarity.RARE, mage.cards.b.BlechLoafingPest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Blech, Loafing Pest", 298, Rarity.RARE, mage.cards.b.BlechLoafingPest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bogwater Lumaret", 177, Rarity.COMMON, mage.cards.b.BogwaterLumaret.class));
