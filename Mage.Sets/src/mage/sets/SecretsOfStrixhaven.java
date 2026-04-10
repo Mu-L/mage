@@ -162,6 +162,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Pestbrood Sloth", 157, Rarity.UNCOMMON, mage.cards.p.PestbroodSloth.class));
         cards.add(new SetCardInfo("Petrified Hamlet", 259, Rarity.RARE, mage.cards.p.PetrifiedHamlet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Petrified Hamlet", 362, Rarity.RARE, mage.cards.p.PetrifiedHamlet.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Pigment Wrangler", 126, Rarity.UNCOMMON, mage.cards.p.PigmentWrangler.class));
         cards.add(new SetCardInfo("Plains", 267, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Plains", 272, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 273, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
