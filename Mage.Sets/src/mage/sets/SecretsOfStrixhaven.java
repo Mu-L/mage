@@ -25,6 +25,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         this.hasBasicLands = true;
 
         cards.add(new SetCardInfo("Abigale, Poet Laureate", 170, Rarity.UNCOMMON, mage.cards.a.AbigalePoetLaureate.class));
+        cards.add(new SetCardInfo("Ajani's Response", 6, Rarity.COMMON, mage.cards.a.AjanisResponse.class));
         cards.add(new SetCardInfo("Ancestral Anger", 106, Rarity.COMMON, mage.cards.a.AncestralAnger.class));
         cards.add(new SetCardInfo("Arcane Omens", 73, Rarity.UNCOMMON, mage.cards.a.ArcaneOmens.class));
         cards.add(new SetCardInfo("Archaic's Agony", 107, Rarity.UNCOMMON, mage.cards.a.ArchaicsAgony.class));
