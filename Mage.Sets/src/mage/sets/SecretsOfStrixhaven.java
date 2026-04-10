@@ -179,6 +179,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Rancorous Archaic", 2, Rarity.COMMON, mage.cards.r.RancorousArchaic.class));
         cards.add(new SetCardInfo("Rapier Wit", 28, Rarity.COMMON, mage.cards.r.RapierWit.class));
         cards.add(new SetCardInfo("Rapturous Moment", 219, Rarity.UNCOMMON, mage.cards.r.RapturousMoment.class));
+        cards.add(new SetCardInfo("Rearing Embermare", 127, Rarity.COMMON, mage.cards.r.RearingEmbermare.class));
         cards.add(new SetCardInfo("Resonating Lute", 221, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Resonating Lute", 355, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Scolding Administrator", 224, Rarity.UNCOMMON, mage.cards.s.ScoldingAdministrator.class));
