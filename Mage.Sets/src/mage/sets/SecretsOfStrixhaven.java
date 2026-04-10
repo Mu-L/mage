@@ -184,6 +184,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Shattered Acolyte", 31, Rarity.COMMON, mage.cards.s.ShatteredAcolyte.class));
         cards.add(new SetCardInfo("Shattered Sanctum", 260, Rarity.RARE, mage.cards.s.ShatteredSanctum.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Shattered Sanctum", 303, Rarity.RARE, mage.cards.s.ShatteredSanctum.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Shopkeeper's Bane", 159, Rarity.COMMON, mage.cards.s.ShopkeepersBane.class));
         cards.add(new SetCardInfo("Silverquill Charm", 225, Rarity.UNCOMMON, mage.cards.s.SilverquillCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Silverquill Charm", 366, Rarity.UNCOMMON, mage.cards.s.SilverquillCharm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skycoach Conductor", 322, Rarity.RARE, mage.cards.s.SkycoachConductor.class, NON_FULL_USE_VARIOUS));
