@@ -188,6 +188,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Resonating Lute", 355, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Scolding Administrator", 224, Rarity.UNCOMMON, mage.cards.s.ScoldingAdministrator.class));
         cards.add(new SetCardInfo("Seize the Spoils", 129, Rarity.COMMON, mage.cards.s.SeizeTheSpoils.class));
+        cards.add(new SetCardInfo("Send in the Pest", 100, Rarity.COMMON, mage.cards.s.SendInThePest.class));
         cards.add(new SetCardInfo("Shattered Acolyte", 31, Rarity.COMMON, mage.cards.s.ShatteredAcolyte.class));
         cards.add(new SetCardInfo("Shattered Sanctum", 260, Rarity.RARE, mage.cards.s.ShatteredSanctum.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Shattered Sanctum", 303, Rarity.RARE, mage.cards.s.ShatteredSanctum.class, NON_FULL_USE_VARIOUS));
