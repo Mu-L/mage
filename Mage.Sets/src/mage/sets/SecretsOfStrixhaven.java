@@ -185,6 +185,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Planar Engineering", 158, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Planar Engineering", 340, Rarity.RARE, mage.cards.p.PlanarEngineering.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Poisoner's Apprentice", 92, Rarity.UNCOMMON, mage.cards.p.PoisonersApprentice.class));
+        cards.add(new SetCardInfo("Potioner's Trove", 251, Rarity.COMMON, mage.cards.p.PotionersTrove.class));
         cards.add(new SetCardInfo("Postmortem Professor", 93, Rarity.RARE, mage.cards.p.PostmortemProfessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Postmortem Professor", 327, Rarity.RARE, mage.cards.p.PostmortemProfessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Practiced Offense", 25, Rarity.RARE, mage.cards.p.PracticedOffense.class, NON_FULL_USE_VARIOUS));
