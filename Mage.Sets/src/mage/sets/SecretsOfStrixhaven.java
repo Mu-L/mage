@@ -155,6 +155,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Maelstrom Artisan", 122, Rarity.RARE, mage.cards.m.MaelstromArtisan.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Maelstrom Artisan", 334, Rarity.RARE, mage.cards.m.MaelstromArtisan.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mage Tower Referee", 249, Rarity.COMMON, mage.cards.m.MageTowerReferee.class));
+        cards.add(new SetCardInfo("Magmablood Archaic", 123, Rarity.RARE, mage.cards.m.MagmabloodArchaic.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Magmablood Archaic", 295, Rarity.RARE, mage.cards.m.MagmabloodArchaic.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mana Sculpt", 319, Rarity.RARE, mage.cards.m.ManaSculpt.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mana Sculpt", 57, Rarity.RARE, mage.cards.m.ManaSculpt.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Masterful Flourish", 89, Rarity.COMMON, mage.cards.m.MasterfulFlourish.class));
