@@ -175,6 +175,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Matterbending Mage", 59, Rarity.UNCOMMON, mage.cards.m.MatterbendingMage.class));
         cards.add(new SetCardInfo("Melancholic Poet", 90, Rarity.COMMON, mage.cards.m.MelancholicPoet.class));
         cards.add(new SetCardInfo("Mica, Reader of Ruins", 124, Rarity.UNCOMMON, mage.cards.m.MicaReaderOfRuins.class));
+        cards.add(new SetCardInfo("Mind Roots", 203, Rarity.UNCOMMON, mage.cards.m.MindRoots.class));
         cards.add(new SetCardInfo("Mind into Matter", 202, Rarity.RARE, mage.cards.m.MindIntoMatter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mind into Matter", 352, Rarity.RARE, mage.cards.m.MindIntoMatter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mindful Biomancer", 154, Rarity.COMMON, mage.cards.m.MindfulBiomancer.class));
