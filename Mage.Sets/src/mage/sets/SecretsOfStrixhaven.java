@@ -48,6 +48,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Blech, Loafing Pest", 176, Rarity.RARE, mage.cards.b.BlechLoafingPest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Blech, Loafing Pest", 298, Rarity.RARE, mage.cards.b.BlechLoafingPest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bogwater Lumaret", 177, Rarity.COMMON, mage.cards.b.BogwaterLumaret.class));
+        cards.add(new SetCardInfo("Borrowed Knowledge", 178, Rarity.UNCOMMON, mage.cards.b.BorrowedKnowledge.class));
         cards.add(new SetCardInfo("Brush Off", 39, Rarity.UNCOMMON, mage.cards.b.BrushOff.class));
         cards.add(new SetCardInfo("Burrog Banemaker", 75, Rarity.COMMON, mage.cards.b.BurrogBanemaker.class));
         cards.add(new SetCardInfo("Campus Composer", 40, Rarity.UNCOMMON, mage.cards.c.CampusComposer.class));
