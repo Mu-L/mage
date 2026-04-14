@@ -82,6 +82,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Dreamroot Cascade", 302, Rarity.RARE, mage.cards.d.DreamrootCascade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Duel Tactics", 112, Rarity.UNCOMMON, mage.cards.d.DuelTactics.class));
         cards.add(new SetCardInfo("Eager Glyphmage", 11, Rarity.COMMON, mage.cards.e.EagerGlyphmage.class));
+        cards.add(new SetCardInfo("Echocasting Symposium", 291, Rarity.MYTHIC, mage.cards.e.EchocastingSymposium.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Echocasting Symposium", 44, Rarity.MYTHIC, mage.cards.e.EchocastingSymposium.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Efflorescence", 144, Rarity.COMMON, mage.cards.e.Efflorescence.class));
         cards.add(new SetCardInfo("Elemental Mascot", 185, Rarity.COMMON, mage.cards.e.ElementalMascot.class));
         cards.add(new SetCardInfo("Embrace the Paradox", 186, Rarity.COMMON, mage.cards.e.EmbraceTheParadox.class));
