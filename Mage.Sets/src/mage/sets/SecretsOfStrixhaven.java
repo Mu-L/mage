@@ -251,6 +251,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Render Speechless", 220, Rarity.COMMON, mage.cards.r.RenderSpeechless.class));
         cards.add(new SetCardInfo("Resonating Lute", 221, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Resonating Lute", 355, Rarity.RARE, mage.cards.r.ResonatingLute.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Restoration Seminar", 290, Rarity.MYTHIC, mage.cards.r.RestorationSeminar.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Restoration Seminar", 30, Rarity.MYTHIC, mage.cards.r.RestorationSeminar.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Root Manipulation", 222, Rarity.UNCOMMON, mage.cards.r.RootManipulation.class));
         cards.add(new SetCardInfo("Rubble Rouser", 128, Rarity.COMMON, mage.cards.r.RubbleRouser.class));
         cards.add(new SetCardInfo("Run Behind", 66, Rarity.COMMON, mage.cards.r.RunBehind.class));
