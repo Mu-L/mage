@@ -145,6 +145,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Hydro-Channeler", 54, Rarity.COMMON, mage.cards.h.HydroChanneler.class));
         cards.add(new SetCardInfo("Imperious Inkmage", 195, Rarity.COMMON, mage.cards.i.ImperiousInkmage.class));
         cards.add(new SetCardInfo("Impractical Joke", 119, Rarity.UNCOMMON, mage.cards.i.ImpracticalJoke.class));
+        cards.add(new SetCardInfo("Improvisation Capstone", 120, Rarity.MYTHIC, mage.cards.i.ImprovisationCapstone.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Improvisation Capstone", 294, Rarity.MYTHIC, mage.cards.i.ImprovisationCapstone.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Infirmary Healer", 152, Rarity.UNCOMMON, mage.cards.i.InfirmaryHealer.class));
         cards.add(new SetCardInfo("Informed Inkwright", 20, Rarity.RARE, mage.cards.i.InformedInkwright.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Informed Inkwright", 311, Rarity.RARE, mage.cards.i.InformedInkwright.class, NON_FULL_USE_VARIOUS));
