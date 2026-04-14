@@ -317,6 +317,8 @@ public final class SecretsOfStrixhavenCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Stonecoil Serpent", 356, Rarity.RARE, mage.cards.s.StonecoilSerpent.class));
         cards.add(new SetCardInfo("Storm-Kiln Artist", 255, Rarity.UNCOMMON, mage.cards.s.StormKilnArtist.class));
         cards.add(new SetCardInfo("Stormcatch Mentor", 331, Rarity.UNCOMMON, mage.cards.s.StormcatchMentor.class));
+        cards.add(new SetCardInfo("Striding Shotcaller", 50, Rarity.RARE, mage.cards.s.StridingShotcaller.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Striding Shotcaller", 98, Rarity.RARE, mage.cards.s.StridingShotcaller.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Stroke of Genius", 203, Rarity.RARE, mage.cards.s.StrokeOfGenius.class));
         cards.add(new SetCardInfo("Study Hall", 407, Rarity.COMMON, mage.cards.s.StudyHall.class));
         cards.add(new SetCardInfo("Sulfur Falls", 408, Rarity.RARE, mage.cards.s.SulfurFalls.class));
