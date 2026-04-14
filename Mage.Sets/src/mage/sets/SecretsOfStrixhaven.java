@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class SecretsOfStrixhaven extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Adventurous Eater", "Blazing Firesinger", "Campus Composer", "Cheerful Osteomancer", "Elite Interceptor", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Emeritus of Truce", "Emeritus of Woe", "Encouraging Aviator", "Goblin Glasswright", "Grave Researcher", "Harmonized Trio", "Honorbound Page", "Infirmary Healer", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Leech Collector", "Lluwen, Exchange Student", "Maelstrom Artisan", "Pigment Wrangler", "Quill-Blade Laureate", "Sanar, Unfinished Genius", "Scathing Shadelock", "Scheming Silvertongue", "Skycoach Conductor", "Spellbook Seeker", "Spiritcall Enthusiast", "Strife Scholar", "Studious First-Year", "Tam, Observant Sequencer", "Vastlands Scavenger");
+    private static final List<String> unfinished = Arrays.asList("Abigale, Poet Laureate", "Adventurous Eater", "Blazing Firesinger", "Campus Composer", "Cheerful Osteomancer", "Decorum Dissertation", "Echocasting Symposium", "Elite Interceptor", "Emeritus of Abundance", "Emeritus of Conflict", "Emeritus of Ideation", "Emeritus of Truce", "Emeritus of Woe", "Encouraging Aviator", "Germination Practicum", "Goblin Glasswright", "Grave Researcher", "Harmonized Trio", "Honorbound Page", "Improvisation Capstone", "Infirmary Healer", "Jadzi, Steward of Fate", "Joined Researchers", "Kirol, History Buff", "Landscape Painter", "Leech Collector", "Lluwen, Exchange Student", "Maelstrom Artisan", "Pigment Wrangler", "Quill-Blade Laureate", "Restoration Seminar", "Sanar, Unfinished Genius", "Scathing Shadelock", "Scheming Silvertongue", "Skycoach Conductor", "Spellbook Seeker", "Spiritcall Enthusiast", "Strife Scholar", "Studious First-Year", "Tam, Observant Sequencer", "Vastlands Scavenger");
     private static final SecretsOfStrixhaven instance = new SecretsOfStrixhaven();
 
     public static SecretsOfStrixhaven getInstance() {
@@ -71,6 +71,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Daydream", 9, Rarity.UNCOMMON, mage.cards.d.Daydream.class));
         cards.add(new SetCardInfo("Deathcap Glade", 253, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deathcap Glade", 301, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Decorum Dissertation", 292, Rarity.MYTHIC, mage.cards.d.DecorumDissertation.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Decorum Dissertation", 78, Rarity.MYTHIC, mage.cards.d.DecorumDissertation.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deluge Virtuoso", 42, Rarity.COMMON, mage.cards.d.DelugeVirtuoso.class));
         cards.add(new SetCardInfo("Diary of Dreams", 248, Rarity.UNCOMMON, mage.cards.d.DiaryOfDreams.class));
         cards.add(new SetCardInfo("Dig Site Inventory", 10, Rarity.COMMON, mage.cards.d.DigSiteInventory.class));
