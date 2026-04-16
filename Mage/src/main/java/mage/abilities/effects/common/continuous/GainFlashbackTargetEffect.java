@@ -45,8 +45,8 @@ public class GainFlashbackTargetEffect extends ContinuousEffectImpl {
 
     @Override
     public String getText(Mode mode) {
-        StringBuilder sb = new StringBuilder(getTargetPointer().describeTargets(mode.getTargets(), ""));
-        sb.append(" gains flashback until end of turn. The flashback cost is equal to its mana cost");
-        return sb.toString();
+        return getTargetPointer().describeTargets(mode.getTargets(), "") +
+                " in your graveyard gains flashback until end of turn." +
+                " The flashback cost is equal to its mana cost";
     }
 }
