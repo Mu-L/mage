@@ -1,22 +1,9 @@
 package mage.cards.d;
 
-import java.util.UUID;
-
-import mage.abilities.common.EntersBattlefieldTriggeredAbility;
-import mage.constants.SubType;
-import mage.counters.CounterType;
-import mage.filter.StaticFilters;
-import mage.game.Game;
-import mage.game.permanent.Permanent;
-import mage.game.permanent.token.custom.CreatureToken;
-import mage.target.common.TargetCardInYourGraveyard;
-import mage.target.common.TargetControlledPermanent;
-import mage.target.targetpointer.FixedTarget;
 import mage.abilities.Ability;
 import mage.abilities.common.BecomesClassLevelTriggeredAbility;
-import mage.abilities.common.EntersBattlefieldAbility;
+import mage.abilities.common.EntersBattlefieldTriggeredAbility;
 import mage.abilities.common.SimpleStaticAbility;
-import mage.abilities.dynamicvalue.common.StaticValue;
 import mage.abilities.effects.ContinuousEffect;
 import mage.abilities.effects.OneShotEffect;
 import mage.abilities.effects.common.DrawDiscardControllerEffect;
@@ -33,6 +20,17 @@ import mage.cards.CardSetInfo;
 import mage.constants.CardType;
 import mage.constants.Duration;
 import mage.constants.Outcome;
+import mage.constants.SubType;
+import mage.counters.CounterType;
+import mage.filter.StaticFilters;
+import mage.game.Game;
+import mage.game.permanent.Permanent;
+import mage.game.permanent.token.custom.CreatureToken;
+import mage.target.common.TargetCardInYourGraveyard;
+import mage.target.common.TargetControlledPermanent;
+import mage.target.targetpointer.FixedTarget;
+
+import java.util.UUID;
 
 /**
  *
@@ -50,7 +48,7 @@ public final class DoesMachines extends CardImpl {
 
         // When this Class enters, mill two cards, draw two cards, then discard two cards.
         Ability enterAbility = new EntersBattlefieldTriggeredAbility(new MillCardsControllerEffect(2));
-        enterAbility.addEffect(new DrawDiscardControllerEffect(2, 2));
+        enterAbility.addEffect(new DrawDiscardControllerEffect(2, 2).concatBy(","));
         this.addAbility(enterAbility);
 
         // {1}{U}: Level 2

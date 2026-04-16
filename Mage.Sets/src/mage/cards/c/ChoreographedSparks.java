@@ -59,7 +59,7 @@ public final class ChoreographedSparks extends CardImpl {
             new CopyTargetStackObjectEffect(false, false, false, 1, ChoreographedSparksApplier.instance)
                 .setText("Copy target creature spell you control. "
                     + "The copy gains haste and \"At the beginning of "
-                    + "the next end step, sacrifice this token.\"")
+                    + "the end step, sacrifice this token.\"")
         );
         mode.addTarget(new TargetSpell(filter2));
         this.getSpellAbility().getModes().addMode(mode);
