@@ -1,6 +1,8 @@
 package mage.cards.d;
 
 import java.util.UUID;
+
+import mage.abilities.common.EntersBattlefieldTriggeredAbility;
 import mage.constants.SubType;
 import mage.counters.CounterType;
 import mage.filter.StaticFilters;
@@ -47,7 +49,7 @@ public final class DoesMachines extends CardImpl {
         this.addAbility(new ClassReminderAbility());
 
         // When this Class enters, mill two cards, draw two cards, then discard two cards.
-        Ability enterAbility = new EntersBattlefieldAbility(new MillCardsControllerEffect(2));
+        Ability enterAbility = new EntersBattlefieldTriggeredAbility(new MillCardsControllerEffect(2));
         enterAbility.addEffect(new DrawDiscardControllerEffect(2, 2));
         this.addAbility(enterAbility);
 
@@ -60,11 +62,11 @@ public final class DoesMachines extends CardImpl {
         this.addAbility(level2Ability);
 
         // {4}{U}: Level 3
-        this.addAbility(new ClassLevelAbility(2, "{4}{U}"));
+        this.addAbility(new ClassLevelAbility(3, "{4}{U}"));
 
         // At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.
         Ability level3ability = new BeginningOfCombatTriggeredAbility(
-            new AddCountersTargetEffect(CounterType.P1P1.createInstance(), StaticValue.get(3))
+            new AddCountersTargetEffect(CounterType.P1P1.createInstance(3))
         );
         level3ability.addTarget(new TargetControlledPermanent(StaticFilters.FILTER_CONTROLLED_PERMANENT_ARTIFACT));
         level3ability.addEffect(new DoesMachinesEffect());
