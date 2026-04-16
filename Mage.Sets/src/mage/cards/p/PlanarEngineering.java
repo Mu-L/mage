@@ -21,7 +21,7 @@ public final class PlanarEngineering extends CardImpl {
         // Sacrifice two lands. Search your library for four basic land cards, put them onto the battlefield tapped, then shuffle.
         this.getSpellAbility().addEffect(new SacrificeControllerEffect(StaticFilters.FILTER_LAND, 2, ""));
         this.getSpellAbility().addEffect(new SearchLibraryPutInPlayEffect(new TargetCardInLibrary(
-                0, 4, StaticFilters.FILTER_CARD_BASIC_LANDS
+                4, StaticFilters.FILTER_CARD_BASIC_LANDS
         ), true));
     }
 
