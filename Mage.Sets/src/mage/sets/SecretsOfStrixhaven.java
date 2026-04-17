@@ -341,6 +341,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Visionary's Dance", 242, Rarity.COMMON, mage.cards.v.VisionarysDance.class));
         cards.add(new SetCardInfo("Wander Off", 104, Rarity.COMMON, mage.cards.w.WanderOff.class));
         cards.add(new SetCardInfo("Wild Hypothesis", 167, Rarity.COMMON, mage.cards.w.WildHypothesis.class));
+        cards.add(new SetCardInfo("Wilt in the Heat", 243, Rarity.COMMON, mage.cards.w.WiltInTheHeat.class));
         cards.add(new SetCardInfo("Wisdom of Ages", 323, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Wisdom of Ages", 368, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Wisdom of Ages", 71, Rarity.RARE, mage.cards.w.WisdomOfAges.class, NON_FULL_USE_VARIOUS));
