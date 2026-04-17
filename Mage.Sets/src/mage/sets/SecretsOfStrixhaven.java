@@ -303,6 +303,7 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Strixhaven Skycoach", 252, Rarity.UNCOMMON, mage.cards.s.StrixhavenSkycoach.class));
         cards.add(new SetCardInfo("Studious First-Year", 162, Rarity.COMMON, mage.cards.s.StudiousFirstYear.class));
         cards.add(new SetCardInfo("Summoned Dromedary", 37, Rarity.UNCOMMON, mage.cards.s.SummonedDromedary.class));
+        cards.add(new SetCardInfo("Sundering Archaic", 3, Rarity.UNCOMMON, mage.cards.s.SunderingArchaic.class));
         cards.add(new SetCardInfo("Sundown Pass", 264, Rarity.RARE, mage.cards.s.SundownPass.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sundown Pass", 305, Rarity.RARE, mage.cards.s.SundownPass.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Swamp", 269, Rarity.LAND, mage.cards.basiclands.Swamp.class, FULL_ART_BFZ_VARIOUS));
