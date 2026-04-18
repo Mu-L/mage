@@ -195,6 +195,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Molten-Core Maestro", 335, Rarity.RARE, mage.cards.m.MoltenCoreMaestro.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Moment of Reckoning", 205, Rarity.RARE, mage.cards.m.MomentOfReckoning.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Moment of Reckoning", 353, Rarity.RARE, mage.cards.m.MomentOfReckoning.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Moseo, Vein's New Dean", 326, Rarity.RARE, mage.cards.m.MoseoVeinsNewDean.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Moseo, Vein's New Dean", 91, Rarity.RARE, mage.cards.m.MoseoVeinsNewDean.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mountain", 270, Rarity.LAND, mage.cards.basiclands.Mountain.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Mountain", 278, Rarity.LAND, mage.cards.basiclands.Mountain.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mountain", 279, Rarity.LAND, mage.cards.basiclands.Mountain.class, NON_FULL_USE_VARIOUS));
