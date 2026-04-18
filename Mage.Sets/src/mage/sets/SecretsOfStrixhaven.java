@@ -275,6 +275,8 @@ public final class SecretsOfStrixhaven extends ExpansionSet {
         cards.add(new SetCardInfo("Skycoach Conductor", 322, Rarity.RARE, mage.cards.s.SkycoachConductor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skycoach Conductor", 67, Rarity.RARE, mage.cards.s.SkycoachConductor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skycoach Waypoint", 261, Rarity.UNCOMMON, mage.cards.s.SkycoachWaypoint.class));
+        cards.add(new SetCardInfo("Slumbering Trudge", 160, Rarity.RARE, mage.cards.s.SlumberingTrudge.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Slumbering Trudge", 341, Rarity.RARE, mage.cards.s.SlumberingTrudge.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Snarl Song", 161, Rarity.UNCOMMON, mage.cards.s.SnarlSong.class));
         cards.add(new SetCardInfo("Sneering Shadewriter", 101, Rarity.COMMON, mage.cards.s.SneeringShadewriter.class));
         cards.add(new SetCardInfo("Snooping Page", 227, Rarity.UNCOMMON, mage.cards.s.SnoopingPage.class));
