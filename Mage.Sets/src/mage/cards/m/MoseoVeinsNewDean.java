@@ -33,8 +33,7 @@ import java.util.UUID;
 public final class MoseoVeinsNewDean extends CardImpl {
 
     private static final FilterCard filter = new FilterCreatureCard(
-            "creature card with mana value X or less from your graveyard to the battlefield, "
-                    + "where X is the amount of life you gained this turn"
+            "creature card with mana value X or less"
     );
 
     static {
@@ -58,7 +57,10 @@ public final class MoseoVeinsNewDean extends CardImpl {
         this.addAbility(new EntersBattlefieldTriggeredAbility(new CreateTokenEffect(new PestBlackGreenAttacksToken())));
 
         // Infusion -- At the beginning of your end step, if you gained life this turn, return up to one target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of life you gained this turn.
-        TriggeredAbility ability = new BeginningOfEndStepTriggeredAbility(new ReturnFromGraveyardToBattlefieldTargetEffect());
+        TriggeredAbility ability = new BeginningOfEndStepTriggeredAbility(new ReturnFromGraveyardToBattlefieldTargetEffect()
+                .setText("return up to one target creature card with mana value X or less " +
+                        "from your graveyard to the battlefield, " +
+                        "where X is the amount of life you gained this turn"));
         ability.addTarget(new TargetCardInYourGraveyard(0, 1, filter));
         ability.withInterveningIf(YouGainedLifeCondition.getZero());
         ability.setAbilityWord(AbilityWord.INFUSION);

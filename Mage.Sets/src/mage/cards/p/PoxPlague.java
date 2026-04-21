@@ -43,7 +43,7 @@ class PoxPlagueEffect extends OneShotEffect {
         super(Outcome.Detriment);
         this.staticText = "Each player loses half their life, "
                 + "then discards half the cards in their hand, "
-                + "then sacrifices half the permanents they control. "
+                + "then sacrifices half the permanents they control of their choice. "
                 + "Round down each time.";
     }
 
