@@ -11,7 +11,6 @@ import mage.abilities.effects.OneShotEffect;
 import mage.abilities.effects.common.WinGameSourceControllerEffect;
 import mage.abilities.effects.common.search.SearchLibraryPutInHandEffect;
 import mage.abilities.effects.keyword.SurveilEffect;
-import mage.abilities.hint.Hint;
 import mage.abilities.hint.ValueHint;
 import mage.abilities.triggers.BeginningOfUpkeepTriggeredAbility;
 import mage.cards.CardSetInfo;
@@ -51,7 +50,6 @@ public final class CentralElevatorPromisingStairs extends RoomCard {
                 new SurveilEffect(1));
         right.addEffect(new ConditionalOneShotEffect(new WinGameSourceControllerEffect(), PromisingStairsCondition.instance));
         right.addHint(new ValueHint("Different names among unlocked doors of Rooms you control", UnlockedDoorNamesYouControlCount.instance));
-        right.addHint(new TestHint());
         this.getRightHalfCard().addAbility(right);
     }
 
@@ -152,36 +150,5 @@ enum UnlockedDoorNamesYouControlCount implements DynamicValue {
     @Override
     public String getMessage() {
         return "different names among unlocked doors of Rooms you control";
-    }
-}
-class TestHint implements Hint {
-
-    public TestHint() {
-    }
-
-    @Override
-    public String getText(Game game, Ability ability) {
-        Set<String> names = new HashSet<>();
-        for (Permanent permanent : game.getBattlefield().getAllActivePermanents(ability.getControllerId())) {
-            if (permanent.hasSubtype(SubType.ROOM, game)) {
-                String name = permanent.getName();
-                if (name == null || name.isEmpty()) {
-                    continue;
-                }
-                if (name.contains(" // ")) {
-                    String[] twoNames = name.split(" // ");
-                    names.add(twoNames[0]);
-                    names.add(twoNames[1]);
-                } else {
-                    names.add(name);
-                }
-            }
-        }
-        return names.toString();
-    }
-
-    @Override
-    public TestHint copy() {
-        return this;
     }
 }
