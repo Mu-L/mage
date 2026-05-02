@@ -14,6 +14,7 @@ import mage.game.stack.Spell;
 
 import java.util.UUID;
 
+// Check being cast from controller's hand (not any hand)
 public enum IsBeingCastFromHandCondition implements Condition {
     instance;
 

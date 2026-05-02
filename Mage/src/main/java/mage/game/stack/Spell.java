@@ -1008,6 +1008,7 @@ public class Spell extends StackObjectImpl implements Card {
         return this.fromZone;
     }
 
+    // If fromZone is STACK, then spell was a copy created on stack, not cast
     public boolean wasCast() {
         return !this.fromZone.match(Zone.STACK);
     }
